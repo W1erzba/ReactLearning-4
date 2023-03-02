@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+// have to understand this better
+
 const AuthContext = React.createContext({
 	isLoggedIn: false,
 	onLogout: () => {},
